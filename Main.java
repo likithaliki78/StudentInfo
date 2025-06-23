@@ -9,13 +9,13 @@ public class Main {
             String name = sc.nextLine();
 
             System.out.print("Enter Roll Number: ");
-            int rollnumber = Integer.parseInt(sc.nextLine()); // ✅ Safe way to avoid newline bug
+            int rollnumber = Integer.parseInt(sc.nextLine()); 
 
             System.out.print("Enter Course: ");
             String course = sc.nextLine();
 
             System.out.print("Enter Marks: ");
-            int marks = Integer.parseInt(sc.nextLine()); // ✅ Again, safe way
+            int marks = Integer.parseInt(sc.nextLine()); 
 
             Student obj = new Student(name, rollnumber, course, marks);
             obj.display();
@@ -23,7 +23,7 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Input Error: " + e);
         } finally {
-            sc.close(); // good practice
+            sc.close(); 
         }
     }
 }
