@@ -36,9 +36,6 @@ Course: Java
 Marks: 85
 Grade: B
 
-csharp
-Copy
-Edit
 
 # Author
 Likitha  
